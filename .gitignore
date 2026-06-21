@@ -1,0 +1,11 @@
+# PHP / IDE artifacts
+.idea/
+*.lock
+
+# Environment / credentials
+.env
+config.php
+
+# Logs
+*.log
+error_log
