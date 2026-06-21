@@ -1,5 +1,18 @@
 # PHP E-Commerce Website
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-PHP%20%26%20MySQL-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="Language" />
+  <img src="https://img.shields.io/badge/Course-Web%20Dev-24292e?style=for-the-badge" alt="Course" />
+  <a href="https://github.com/ahmedtags">
+    <img src="https://img.shields.io/badge/Profile-ahmedtags-D9A34A?style=for-the-badge&logo=github&logoColor=white" alt="Profile" />
+  </a>
+  <a href="https://blxman-37fy.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-blxman--37fy-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
+  </a>
+</p>
+
+---
+
 A fully functional e-commerce shopping cart web application built with **PHP** and **MySQL**. Features include product listings, customer authentication, a shopping cart, checkout, admin panel, and PayPal payment integration.
 
 ---
@@ -78,4 +91,3 @@ Here is the database structure defined in `DATABASE FILE/ecom_store.sql` to supp
 | `wishlist` | Customer saved favorite items | `wishlist_id`, `customer_id`, `product_id` |
 | `store` | Physical store locations details | `store_id`, `store_title`, `store_desc` |
 | `terms` | Store terms & conditions | `term_id`, `term_title`, `term_desc` |
-
