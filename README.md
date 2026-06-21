@@ -57,3 +57,25 @@ ecommerce-website-php/
    ```
 4. Update database credentials in the connection configuration file (usually `functions/` or `includes/`).
 5. Navigate to `http://localhost/ecommerce-website-php/` in your browser.
+
+---
+
+## 📸 Database Schema
+
+Here is the database structure defined in `DATABASE FILE/ecom_store.sql` to support the e-commerce shop system:
+
+| Table Name | Description | Key Fields |
+|------------|-------------|------------|
+| `admins` | Store admin credentials and profiles | `admin_id`, `admin_email`, `admin_pass` |
+| `customers` | Customer registration information | `customer_id`, `customer_email`, `customer_pass` |
+| `products` | Product listings, details, pricing | `product_id`, `product_title`, `product_price` |
+| `product_categories` | Product sub-categories | `p_cat_id`, `p_cat_title` |
+| `categories` | Main categories (Men, Women, Kids) | `cat_id`, `cat_title` |
+| `cart` | Temporary items in user shopping carts | `p_id`, `ip_add`, `qty` |
+| `customer_orders` | Orders placed by customers | `order_id`, `customer_id`, `due_amount` |
+| `payments` | Customer order payments tracking | `payment_id`, `invoice_no`, `amount` |
+| `coupons` | Promo codes and discounts | `coupon_id`, `coupon_code`, `coupon_price` |
+| `wishlist` | Customer saved favorite items | `wishlist_id`, `customer_id`, `product_id` |
+| `store` | Physical store locations details | `store_id`, `store_title`, `store_desc` |
+| `terms` | Store terms & conditions | `term_id`, `term_title`, `term_desc` |
+
